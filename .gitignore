@@ -1,0 +1,40 @@
+# --- Datos y Datasets ---
+# No subimos las imágenes originales por su peso y privacidad
+/datasets/
+/final_files/
+*.csv
+*.zip
+*.7z
+
+# --- Python & Entornos Virtuales ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# --- IDEs y Editores de texto ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# --- Modelos Guardados ---
+# Evitamos subir archivos .h5 o .keras pesados (es mejor documentar cómo generarlos)
+*.h5
+*.keras
+*.tflite
+*.pb
+
+# --- Logs y Resultados Temporales ---
+logs/
+*.log
+.pytest_cache/
